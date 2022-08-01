@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #252421;
+    text-align: center;
+}
+
+.card__container {
+
+    background-color: rgb(235, 229, 219);
+    width: 330px;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(250, 248, 248, 0.562);
+
+    background-image: url('../imgs/code.jpg');
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    padding: 0.1px;
+
+    
+
+}
+
+.card__person{
+
+    background-image: url('../imgs/foto.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 105px;
+    border: 4px solid #fff;
+
+}
+
+.card__name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0.1px;
+}
+
+.card__media{
+
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+.card__media img{
+    padding: 0px 15px;
+}
+
+.card__skill{
+    margin-top: 20px;    
+    
+    padding-top: 20px;
+    border-top: 1px solid #92908c;
+}
+.card__skill img{
+    padding: 5px;
+    cursor: text;
+}
